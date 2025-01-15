@@ -5,9 +5,9 @@ body {
     margin: 0;
     padding: 0;
     background-image: url('imagens/textura-papel-pexels.jpg');
-    background-size: cover; /* Ajusta a textura para cobrir o fundo */
-    background-repeat: no-repeat; /* Evita repetição da textura */
-    background-attachment: fixed; /* Mantém a textura fixa ao rolar a página */
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
 }
 
 header {
@@ -15,8 +15,7 @@ header {
     margin: 20px;
     padding: 10px 10px;
     text-align: center; 
-    border-radius: 50px;    
-    flex: 1; 
+    border-radius: 50px;     
 }
 .header-container{
     display:flex;
@@ -27,22 +26,17 @@ header {
     margin-right: 5px;
     padding: 1px 20px ;
 }
-
 .logo {
     height: 70px;
 }
-
 .home-container {
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center; 
 }
 .logohome {
     padding: 20px;
- 
 }
-
 nav {
     margin-top: 10px;
 }
