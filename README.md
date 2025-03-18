@@ -2,7 +2,7 @@
 
 Bem-vindo ao repositório do site do meu casamento! Este projeto foi desenvolvido para fornecer informações importantes sobre a cerimônia, facilitar a confirmação de presença e ajudar na organização do evento.
 
-## 🎉 Sobre o Projeto
+## 👰🤵 Sobre o Projeto
 
 Este site foi criado para compartilhar detalhes essenciais do casamento, como:
 
@@ -35,7 +35,7 @@ O site foi desenvolvido utilizando as seguintes tecnologias:
  ├── 📜 style.css        # Estilização 
 ```
 
-## 🎨 Capturas de Tela (Opcional)
+## 🎨 Capturas de Tela
 
 Demonstração, aparência e usabilidade do site.
 
