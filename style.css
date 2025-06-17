@@ -152,25 +152,73 @@ h2 {
     
   }
 
+.igreja-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
 
+.igreja {
+    width: 300px; 
+    height: 300px;
+    border-radius: 10%; 
+    object-fit: cover; 
+    box-shadow: 0 4px 6px rgba(12, 1, 1, 0.938); 
+    border: 1px solid #600018;
+}
 
-
-/*
-.padrinhos-container {
+.presentes-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 50px;
-    padding: 20px;
+    list-style: none;
+    gap: 40px;
 }
 
-.padrinhos-fotos {
+.card-presentes {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     width: 180px;
+    box-shadow: 0 4px 6px rgba(12, 1, 1, 0.938); 
+    background-color: #d8d7d7;
+    border-radius: 20px;
+    height: 280px;
 }
 
 
-    */
+
+#presentes h3 {
+    text-align: center;
+    color: #600018;
+    font-family: 'Montserrat';
+    font-size: 90%;
+}
+
+#presentes button {
+    text-align: center;
+    color: #f2f3f1;
+    background-color: rgb(51, 75, 33);
+    font-family: 'Montserrat';
+}
+
+.valor {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    color: #600018;
+    padding: 0;
+    font-weight: bold;
+}
+
+.presente {
+    width: 100px; 
+    height: 100px;
+    border-radius: 10%; 
+    object-fit: cover; 
+    margin-top: 10%;
+}
+
+
