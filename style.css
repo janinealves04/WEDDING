@@ -197,8 +197,12 @@ h2 {
     font-size: 90%;
 }
 
-#presentes button {
-    text-align: center;
+.button {
+    font-size: small;
+    font-weight: 600;
+    border-radius: 20px;
+    border: 0;
+    padding: 5px 10px;
     color: #f2f3f1;
     background-color: rgb(51, 75, 33);
     font-family: 'Montserrat';
@@ -221,4 +225,8 @@ h2 {
     margin-top: 10%;
 }
 
+.presenca-container{
+    text-align: center;
+    padding: 50px;
+}
 
