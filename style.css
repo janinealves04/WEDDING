@@ -2,6 +2,11 @@ html {
     scroll-behavior: smooth;
 }
 
+nav a.active {
+    font-weight: bold;
+    color: #f8f8f8; 
+    text-decoration: none;
+}
 
 body {
     font-family: "Montserrat";
@@ -46,12 +51,14 @@ header {
     display: flex;
     justify-content: center;
     align-items: center; 
-    margin: 20px 0;
-    margin-top: 80px;
+    margin: 0px 0;
+    margin-top: 100px;
+    height: auto;
 }
 .logohome {
-    padding:  20px;
-
+    width: 900px;
+    height: auto;
+    padding: 20px;
 }
 
 nav {
@@ -140,16 +147,14 @@ h2 {
 }
 
 .maps {
-    border: 4px solid #600018;
-    border-radius: 15%; 
     justify-content: center;
     display: flex;
+    border: none;
 }
 .map-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    
   }
 
 .igreja-container {
