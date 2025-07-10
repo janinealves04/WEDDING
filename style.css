@@ -34,17 +34,15 @@ header {
     align-items: center;
     position: fixed;
     width: 100%;
-    
-      
+   
 }
 .logo-container {
     margin-right: 5px;
     padding: 1px 20px ;
-  
-   
 }
 .logo {
     height: 70px;
+    padding-top: 15px;
 
 }
 .home-container {
@@ -52,7 +50,7 @@ header {
     justify-content: center;
     align-items: center; 
     margin: 0px 0;
-    margin-top: 100px;
+   
     height: auto;
 }
 .logohome {
@@ -235,3 +233,37 @@ h2 {
     padding: 50px;
 }
 
+.secao {
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 5px;
+    text-align: center;
+
+    opacity: 0;
+    transition: opacity 0.6s ease-in-out;
+}
+
+.secao.mostrarTransicao {
+    opacity: 1;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.flores {
+    width: 200px;
+    height: auto;
+}
+.casalInicio{
+    width: 400px;
+    height: auto;
+    padding-top: 30px;
+}

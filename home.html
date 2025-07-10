@@ -14,22 +14,24 @@
     <div id="inicio"></div> 
     <div class="header-container" >
         <div class="logo-container" id="inicio">
-            <img src="imagens\logo-definitvo.png" alt="Logo do Site" class="logo">
+            <img src="imagens\icone.png" alt="Logo do Site" class="logo">
         </div>
  <!--Criação de cabeçalho e inclução da logo--> 
 
         <header>
             <nav>
-                <a href="#inicio">HOME</a>
-                <a href="#historia">NOSSA HISTÓRIA</a>
-                <a href="#padrinhos">PADRINHOS</a>
-                <a href="#cerimonia">CERIMÔNIA</a>
-                <a href="#presentes">PRESENTES</a>
-                <a href="#confirmacao">CONFIRME SUA PRESENÇA</a>
+                <a href="#" onclick="mostrarSecao('home')">HOME</a>
+                <a href="#" onclick="mostrarSecao('historia')">NOSSA HISTÓRIA</a>
+                <a href="#" onclick="mostrarSecao('padrinhos')">PADRINHOS</a>
+                <a href="#" onclick="mostrarSecao('cerimonia')">CERIMÔNIA</a>
+                <a href="#" onclick="mostrarSecao('presentes')">PRESENTES</a>
+                <a href="#" onclick="mostrarSecao('confirmacao')">CONFIRME SUA PRESENÇA</a>
             </nav>
         </header>
      <!--Container para  pagina home de apresentação--> 
     </div>
+    <!--Seção home --> 
+    <section id="home" class="secao">
     <div class="home-container">
         <img src="imagens/home-definitivo1.png" alt="Imagem Home" class="logohome">
     </div>
@@ -46,9 +48,10 @@
         <p> Aguardamos vocês no nosso grande dia!</p>
 
         <p><strong>Lucas e Janine</strong></p>
-
+        <img src="imagens\fotosCasal\casal-foto3.jpg" alt="Imagem Home" class="casalInicio"><br>
+</section>
        <!--Seção historia do casal --> 
-       <section id="historia">
+       <section id="historia" class="secao">
             <h2>Nossa história</h2>
         
                 <div class="foto-container">
@@ -66,7 +69,7 @@
         </section>
 
     <!--Seção padrinhos--> 
-     <section id="padrinhos">
+     <section id="padrinhos" class="secao">
             <h2>Padrinhos</h2>
             <p>Aos nossos queridos padrinhos, é uma emoção única e indescritível tê-los ao nosso lado, 
             vocês que acompanharam de perto nosso crescimento e poder partilhar com vocês toda felicidade 
@@ -104,7 +107,7 @@
             
     </section>
      <!--Seção cerimônia--> 
-        <section id="cerimonia">
+        <section id="cerimonia" class="secao">
             <h2>Cerimonia</h2>
            
                 <div class="igreja-container">
@@ -122,7 +125,7 @@
         </section>
 
  <!--Seção presentes--> 
-        <section id="presentes">
+        <section id="presentes" class="secao">
             <h2>Presentes</h2>
             <p>Aqueles que desejarem presentear somos gratos, porém recomendamos que seja itens que 
                 não seja para "casa" pois ja moramos juntos. Confira sugestões de presentes:
@@ -152,7 +155,7 @@
                     <button class="button" onclick="window.open('https://wa.me/qr/6BAUVJROXLGGH1', '_blank')">Confirmar presente</button>
             </div>
 
-            <div class="card-presentes">
+            <div class="card-presentes" class="secao">
                 <img src="imagens\fotosCasal\fotocasal.jpg" alt="Raquel e Fernando" class="presente">
                  <h3>Cota para album 4</h3>
                 <p class="valor">R$ 150,00</p>
@@ -163,7 +166,7 @@
         </section>
 
  <!--Seção confirmação--> 
-        <section id="confirmação">
+        <section id="confirmacao" class="secao">
             <h2>Confirme sua presença!</h2>
              <p>Se você ainda não respondeu ao seu convite, confirme clicando no link sua 
                 presença e auxilie os noivos a se programarem para o grande dia!Se desejar nos deixar um recado,
@@ -175,5 +178,7 @@
         </div>
         </section>
 
-
+<footer>
+    <img src="imagens\flores.png" alt="footer" class="flores">
+</footer>
       
