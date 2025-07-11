@@ -8,6 +8,26 @@ nav a.active {
     text-decoration: none;
 }
 
+nav a:hover{
+    transform: scale(1.03);
+    cursor:pointer;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #600018; /* muda cor ao passar o mouse */
+    transform: scale(1.05);    /* aumenta levemente o botão */
+    transition: all 0.1s ease; /* transição suave */
+    cursor: pointer;           /* mostra a mãozinha ao passar */
+}
+.button2:hover {
+    background-color: #600018; /* muda cor ao passar o mouse */
+    transform: scale(1.05);    /* aumenta levemente o botão */
+    transition: all 0.1s ease; /* transição suave */
+    cursor: pointer;           /* mostra a mãozinha ao passar */
+}
+
+
 body {
     font-family: "Montserrat";
     margin: 0;
@@ -189,15 +209,20 @@ h2 {
     background-color: #d8d7d7;
     border-radius: 20px;
     height: 280px;
+    
+    
 }
-
 
 
 #presentes h3 {
     text-align: center;
-    color: #600018;
-    font-family: 'Montserrat';
-    font-size: 90%;
+    font-family:  "Montserrat";
+    font-weight: normal;
+    font-size: 15px;
+    padding: 0px ;
+    line-height: 10px;
+    color: #0d3105;
+    line-height: 1.0;
 }
 
 .button {
@@ -210,6 +235,18 @@ h2 {
     background-color: rgb(51, 75, 33);
     font-family: 'Montserrat';
 }
+
+.button2 {
+   font-size: small;
+    font-weight: 600;
+    border-radius: 20px;
+    border: 0;
+    padding: 10px 15px;
+    color: #f2f3f1;
+    background-color: rgb(51, 75, 33);
+    font-family: 'Montserrat';
+}
+
 
 .valor {
     text-align: center;
