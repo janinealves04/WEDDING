@@ -25,6 +25,13 @@ function mostrarSecao(id){
   });
 }
 
+function hamburguerMenu() {
+  const menu = document.getElementById('menu'); //Torna o menu clicavél  
+  menu.classList.toggle('ativo'); //Indetifiaca quando o menu foi clicado e mostra os links
+}
+
+
+
 // mostrar home ao carregar
 window.onload = () => {
   mostrarSecao('home');

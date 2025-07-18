@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,80 +11,87 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <div id="inicio"></div> 
-    <div class="header-container" >
+    <div id="inicio"></div>
+    <div class="header-container">
         <div class="logo-container" id="inicio">
             <img src="imagens\icone.png" alt="Logo do Site" class="logo">
         </div>
- <!--Criação de cabeçalho e inclução da logo--> 
+        <!--Criação de cabeçalho e inclução da logo-->
 
         <header>
-            <nav>
-                <a href="#" onclick="mostrarSecao('home')">HOME</a>
-                <a href="#" onclick="mostrarSecao('historia')">NOSSA HISTÓRIA</a>
-                <a href="#" onclick="mostrarSecao('padrinhos')">PADRINHOS</a>
-                <a href="#" onclick="mostrarSecao('cerimonia')">CERIMÔNIA</a>
-                <a href="#" onclick="mostrarSecao('presentes')">PRESENTES</a>
-                <a href="#" onclick="mostrarSecao('confirmacao')">CONFIRME SUA PRESENÇA</a>
-            </nav>
+            <div class="menu-hamburguer" onclick="hamburguerMenu()">☰</div>
+            <div class="nav-container">
+                <nav id="menu">
+                    <a href="#" onclick="mostrarSecao('home')">HOME</a>
+                    <a href="#" onclick="mostrarSecao('historia')">NOSSA HISTÓRIA</a>
+                    <a href="#" onclick="mostrarSecao('padrinhos')">PADRINHOS</a>
+                    <a href="#" onclick="mostrarSecao('cerimonia')">CERIMÔNIA</a>
+                    <a href="#" onclick="mostrarSecao('presentes')">PRESENTES</a>
+                    <a href="#" onclick="mostrarSecao('confirmacao')">CONFIRME SUA PRESENÇA</a>
+                </nav>
+            </div>
         </header>
-     <!--Container para  pagina home de apresentação--> 
+        <!--Container para  pagina home de apresentação-->
     </div>
-    <!--Seção home --> 
+    <!--Seção home -->
     <section id="home" class="secao">
-    <div class="home-container">
-        <img src="imagens/home-definitivo1.png" alt="Imagem Home" class="logohome">
-    </div>
-    <br>
-    <p>Criamos esse site para compartilhar com vocês os detalhes da organização do nosso casamento. 
-        Estamos muito felizes e contamos com a presença de todos no nosso grande dia!</p><br>
+        <div class="home-container">
+            <img src="imagens/home-definitivo1.png" alt="Imagem Home" class="logohome">
+        </div>
+        <br>
+        <p>Criamos esse site para compartilhar com vocês os detalhes da organização do nosso casamento.
+            Estamos muito felizes e contamos com a presença de todos no nosso grande dia!</p><br>
 
-    <p>Ah, é importante também confirmar sua presença. 
-        Para isto contamos com sua ajuda clicando no menu “Confirme sua Presença” e preenchendo os dados necessários.</p><br>
+        <p>Ah, é importante também confirmar sua presença.
+            Para isto contamos com sua ajuda clicando no menu “Confirme sua Presença” e preenchendo os dados
+            necessários.</p><br>
 
-       <p> Para nos presentear, escolha qualquer item da Lista de Casamento, 
-        seja um item ou então vocês podem utilizar a opção de cotas. Fiquem à vontade!</p><br>
+        <p> Para nos presentear, escolha qualquer item da Lista de Casamento,
+            seja um item ou então vocês podem utilizar a opção de cotas. Fiquem à vontade!</p><br>
 
         <p> Aguardamos vocês no nosso grande dia!</p>
 
         <p><strong>Lucas e Janine</strong></p>
         <img src="imagens\fotosCasal\casal-foto3.jpg" alt="Imagem Home" class="casalInicio"><br>
-</section>
-       <!--Seção historia do casal --> 
-       <section id="historia" class="secao">
-            <h2>Nossa história</h2>
-        
-                <div class="foto-container">
-                    <img src="imagens\fotosCasal\Casal-foto2.jpg" alt="Foto 1" class="foto">
-                    <img src="imagens\fotosCasal\casal-foto1.jpg" alt="Foto 1" class="foto">
-                    <img src="imagens\fotosCasal\casal-foto3.jpg" alt="Foto 1" class="foto">
-                </div>
-                <p>Nos conhecemos na escola, no fundamental, dois adolescentes, um brincalhão que vivia implicando e outra muito boba para a idade. Através do grupo da escola lá em 2017,
-                 que tudo iniciou  com altos e baixos mas que permanece até então.</p><br>
-                <p>Compartilhamos risos, sonhos e momentos inesquecíveis. Superamos desafios, aprendemos juntos e criamos memórias preciosas.
-                 Agora, decidimos unir nossas vidas em matrimônio, celebrando o amor que nos une.</p><br>
-                <p> Embarcaremos juntos nessa nova jornada, afinal ser responsável por 
-                uma família não é tarefa fácil, mas estamos prontos para enfrentar o futuro com coragem, devoção e amor.</p>
-               
-        </section>
+    </section>
+    <!--Seção historia do casal -->
+    <section id="historia" class="secao">
+        <h2>Nossa história</h2>
 
-    <!--Seção padrinhos--> 
-     <section id="padrinhos" class="secao">
-            <h2>Padrinhos</h2>
-            <p>Aos nossos queridos padrinhos, é uma emoção única e indescritível tê-los ao nosso lado, 
-            vocês que acompanharam de perto nosso crescimento e poder partilhar com vocês toda felicidade 
+        <div class="foto-container">
+            <img src="imagens\fotosCasal\Casal-foto2.jpg" alt="Foto 1" class="foto">
+            <img src="imagens\fotosCasal\casal-foto1.jpg" alt="Foto 1" class="foto">
+            <img src="imagens\fotosCasal\casal-foto3.jpg" alt="Foto 1" class="foto">
+        </div>
+        <p>Nos conhecemos na escola, no fundamental, dois adolescentes, um brincalhão que vivia implicando e outra muito
+            boba para a idade. Através do grupo da escola lá em 2017,
+            que tudo iniciou com altos e baixos mas que permanece até então.</p><br>
+        <p>Compartilhamos risos, sonhos e momentos inesquecíveis. Superamos desafios, aprendemos juntos e criamos
+            memórias preciosas.
+            Agora, decidimos unir nossas vidas em matrimônio, celebrando o amor que nos une.</p><br>
+        <p> Embarcaremos juntos nessa nova jornada, afinal ser responsável por
+            uma família não é tarefa fácil, mas estamos prontos para enfrentar o futuro com coragem, devoção e amor.</p>
+
+    </section>
+
+    <!--Seção padrinhos-->
+    <section id="padrinhos" class="secao">
+        <h2>Padrinhos</h2>
+        <p>Aos nossos queridos padrinhos, é uma emoção única e indescritível tê-los ao nosso lado,
+            vocês que acompanharam de perto nosso crescimento e poder partilhar com vocês toda felicidade
             dessa nova etapa em nossas vidas é um privilégio! Por isso, agradecemos o aceite de cada um em
-             ser testemunhas da nossa união.
-           </p>
-           <br>
+            ser testemunhas da nossa união.
+        </p>
+        <br>
         <div class="padrinhos-container">
-            
+
             <div class="padrinhos-fotos">
                 <img src="imagens\fotospadrinhos\Padrinhos1.jpg" alt="Danny e Danilo" class="foto">
                 <p class="padrinhos-nome">Danny e Danilo</p>
             </div>
-          
+
             <div class="padrinhos-fotos">
                 <img src="imagens\fotospadrinhos\Padrinhos2.jpg" alt="Raquel e Fernando" class="foto">
                 <p class="padrinhos-nome">Raquel e Fernando</p>
@@ -103,82 +111,86 @@
                 <img src="imagens\fotospadrinhos\madrinha- luana.jpg" alt="Raquel e Fernando" class="foto">
                 <p class="padrinhos-nome">Luana</p>
             </div>
-        </div>   
-            
+        </div>
+
     </section>
-     <!--Seção cerimônia--> 
-        <section id="cerimonia" class="secao">
-            <h2>Cerimonia</h2>
-           
-                <div class="igreja-container">
-                    <img src="imagens\igreja\Capela_Santo_Antônio.jpg" alt="Foto 1" class="igreja">
-                    
-                </div><br>
-                <p>Acontecerá na Capela Santo Antonio, iniciará as 17h30. <br>Endereço abaixo: </p><br>
+    <!--Seção cerimônia-->
+    <section id="cerimonia" class="secao">
+        <h2>Cerimonia</h2>
 
-                 <div class="map-container">
-                    <iframe class= "maps"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126993.20571600834!2d-35.37299223319212!3d-5.920340067605269!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b2570c8ed15ebf%3A0xfb73ceff7a929e7!2sCapela%20Santo%20Antonio!5e0!3m2!1spt-BR!2sbr!4v1746110793059!5m2!1spt-BR!2sbr"
-                            width="900" height="400" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-                    </iframe>
-                  
-        </section>
+        <div class="igreja-container">
+            <img src="imagens\igreja\Capela_Santo_Antônio.jpg" alt="Foto 1" class="igreja">
 
- <!--Seção presentes--> 
-        <section id="presentes" class="secao">
-            <h2>Presentes</h2>
-            <p>Aqueles que desejarem presentear somos gratos, porém recomendamos que seja itens que 
-                não seja para "casa" pois ja moramos juntos. Confira sugestões de presentes:
-           </p>
-           <br>
+        </div><br>
+        <p>Acontecerá na Capela Santo Antonio, iniciará as 17h30. <br>Endereço abaixo: </p><br>
 
-              <div class="presentes-container">
-            
+        <div class="map-container">
+            <iframe class="maps"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126993.20571600834!2d-35.37299223319212!3d-5.920340067605269!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b2570c8ed15ebf%3A0xfb73ceff7a929e7!2sCapela%20Santo%20Antonio!5e0!3m2!1spt-BR!2sbr!4v1746110793059!5m2!1spt-BR!2sbr"
+                width="900" height="400" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+
+    </section>
+
+    <!--Seção presentes-->
+    <section id="presentes" class="secao">
+        <h2>Presentes</h2>
+        <p>Aqueles que desejarem presentear somos gratos, porém recomendamos que seja itens que
+            não seja para "casa" pois ja moramos juntos. Confira sugestões de presentes:
+        </p>
+        <br>
+
+        <div class="presentes-container">
+
             <div class="card-presentes">
                 <img src="imagens\albumFotos1.jpg" alt="cota-album-de-fotos" class="presente">
-                 <h3>Cota para <br> álbum  de fotos (1)</h3>
+                <h3>Cota para <br> álbum de fotos (1)</h3>
                 <p class="valor">R$ 150,00</p>
-                <button class="button" onclick="window.open('https://wa.me/qr/6BAUVJROXLGGH1', '_blank')">Confirmar presente</button>
+                <button class="button" onclick="window.open('https://wa.me/qr/6BAUVJROXLGGH1', '_blank')">Confirmar
+                    presente</button>
             </div>
-          
+
             <div class="card-presentes">
                 <img src="imagens\albumFotos2.jpg" alt="cota-album-de-fotos" class="presente">
-                 <h3>Cota para <br>álbum  de fotos (2)</h3>
+                <h3>Cota para <br>álbum de fotos (2)</h3>
                 <p class="valor">R$ 150,00</p>
-                <button class="button" onclick="window.open('https://wa.me/qr/6BAUVJROXLGGH1', '_blank')">Confirmar presente</button>
+                <button class="button" onclick="window.open('https://wa.me/qr/6BAUVJROXLGGH1', '_blank')">Confirmar
+                    presente</button>
             </div>
 
             <div class="card-presentes">
                 <img src="imagens\albumFotos3.jpg" alt="cota-album-de-fotos" class="presente">
-                 <h3>Cota para <br> álbum  de fotos (3)</h3>
-                    <p class="valor">R$ 150,00</p>
-                    <button class="button" onclick="window.open('https://wa.me/qr/6BAUVJROXLGGH1', '_blank')">Confirmar presente</button>
+                <h3>Cota para <br> álbum de fotos (3)</h3>
+                <p class="valor">R$ 150,00</p>
+                <button class="button" onclick="window.open('https://wa.me/qr/6BAUVJROXLGGH1', '_blank')">Confirmar
+                    presente</button>
             </div>
 
             <div class="card-presentes" class="secao">
                 <img src="imagens\albumFotos4.jpg" alt="cota-album-de-fotos" class="presente">
-                 <h3>Cota para <br>álbum  de fotos (4)</h3>
+                <h3>Cota para <br>álbum de fotos (4)</h3>
                 <p class="valor">R$ 150,00</p>
-                <button class="button" onclick="window.open('https://wa.me/qr/6BAUVJROXLGGH1', '_blank')">Confirmar presente</button>
+                <button class="button" onclick="window.open('https://wa.me/qr/6BAUVJROXLGGH1', '_blank')">Confirmar
+                    presente</button>
             </div>
-        </div>   
-                       
-        </section>
+        </div>
 
- <!--Seção confirmação--> 
-        <section id="confirmacao" class="secao">
-            <h2>Confirme sua presença!</h2>
-             <p>Se você ainda não respondeu ao seu convite, confirme clicando no link sua 
-                presença e auxilie os noivos a se programarem para o grande dia!Se desejar nos deixar um recado,
-                 no formulário existe um campo para isso, prometemos ler todos.🤍
-           </p>
+    </section>
+
+    <!--Seção confirmação-->
+    <section id="confirmacao" class="secao">
+        <h2>Confirme sua presença!</h2>
+        <p>Se você ainda não respondeu ao seu convite, confirme clicando no link sua
+            presença e auxilie os noivos a se programarem para o grande dia!Se desejar nos deixar um recado,
+            no formulário existe um campo para isso, prometemos ler todos.🤍
+        </p>
         <div class="presenca-container">
-            <a href="https://forms.gle/5cyg9V3AASXEtzM37" target="_blank" class= "button2" style=" text-decoration: none;"> Confirmar presença!</a>
+            <a href="https://forms.gle/5cyg9V3AASXEtzM37" target="_blank" class="button2"
+                style=" text-decoration: none;"> Confirmar presença!</a>
 
         </div>
-        </section>
+    </section>
 
-<footer>
-    <img src="imagens\flores.png" alt="footer" class="flores">
-</footer>
-      
+    <footer>
+        <img src="imagens\flores.png" alt="footer" class="flores">
+    </footer>
