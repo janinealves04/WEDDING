@@ -322,6 +322,7 @@ footer {
     height: auto;
     padding-top: 30px;
 }
+
 /* Propriedades do menu hamburgyuer */
 .menu-hamburguer {
 
@@ -331,53 +332,68 @@ footer {
 }
 
 /* Esconder em telas mobile */
-.nav-container{
+.nav-container {
     display: flex;
-    flex-direction: row; /*abre da esquerda para direita*/
+    flex-direction: row;
+    /*abre da esquerda para direita*/
 
 }
 
 /* Responsividade mobile */
 
-@media (max-width: 768px){
-    header{
-        flex-direction: column;
+@media (max-width: 768px) {
+    header {
+        padding: 0;
+        margin: 10px;
+        border-radius: 0;
+        background-color: transparent;
+    }
+
+    .menu-hamburguer {
+        width: 45px;
+        height: 45px;
+        background-color: #600018;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
         align-items: center;
+        font-size: 20px;
+        padding: 0;
+        margin: 10px;
     }
 
-    .menu-hamburguer{
-        display: block;
-    }
-
-    .nav-container nav{
-        flex-direction:column;
+    .nav-container nav {
+        flex-direction: column;
         align-items: center;
         padding: 10px 0px;
         gap: 10px;
-        display:  none;
-        
-    }
-/* etsabelece o com0partamnero do nav quando estiver ativo */
-    .nav-container nav.ativo{
-        display: flex;
-    }
-    
-    .logohome {
-        width: 90% ;
+        display: none;
+
     }
 
-    .casalInicio, .igreja {
-        width: 50%;   
+    /* etsabelece o com0partamnero do nav quando estiver ativo */
+    .nav-container nav.ativo {
+        display: flex;
+    }
+
+    .logohome {
+        width: 90%;
+    }
+
+    .casalInicio,
+    .igreja {
+        width: 50%;
     }
 
     p {
         padding: 0 30px;
     }
 
-    .foto-container, .presentes-container {
-        flex-direction:column;
+    .foto-container,
+    .presentes-container {
+        flex-direction: column;
         align-items: center;
     }
 
-    
+
 }
