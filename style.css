@@ -340,7 +340,12 @@ footer {
 }
 
 .menu-hamburguer {
-    display: none; /* tornando o botão invisivel para desktop */
+    display: none;
+    /* tornando o botão invisivel para desktop */
+}
+
+.sidebar {
+    display: none;
 }
 
 /* Responsividade mobile */
@@ -351,7 +356,7 @@ footer {
         margin: 10px;
         border-radius: 0;
         background-color: transparent;
-        
+
     }
 
     .menu-hamburguer {
@@ -365,7 +370,7 @@ footer {
         font-size: 20px;
         padding: 0;
         margin: 10px;
-        position: absolute; 
+        position: absolute;
         right: 10%;
         top: 5%;
     }
@@ -402,5 +407,29 @@ footer {
         flex-direction: column;
         align-items: center;
     }
+
+    .sidebar {
+        background-color: #600018;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        flex-direction: column;
+        display: flex;
+        padding-top: 60px;
+        gap: 20px;
+        padding: 60px 20px;
+
+    }
+
+    .sidebar a {
+        width: 100%;
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        padding-left: 10px;
+        width: 100%;
+        text-align: left;
+    }
+
 
 }
