@@ -339,6 +339,10 @@ footer {
 
 }
 
+.menu-hamburguer {
+    display: none; /* tornando o botão invisivel para desktop */
+}
+
 /* Responsividade mobile */
 
 @media (max-width: 768px) {
