@@ -23,16 +23,19 @@ function mostrarSecao(id){
       link.classList.add('active');
     }
   });
+  
 }
 
-function hamburguerMenu() {
-  const menu = document.getElementById('menu'); //Torna o menu clicavél  
-  menu.classList.toggle('ativo'); //Indetifiaca quando o menu foi clicado e mostra os links
-}
+  function abrirSidebar(){
+    document.getElementById('sidebar').classList.add('ativo');
+  }
 
-
+  function fecharSidebar(){
+    document.getElementById('sidebar').classList.remove('ativo');
+  }
 
 // mostrar home ao carregar
 window.onload = () => {
   mostrarSecao('home');
 };
+

@@ -411,6 +411,7 @@ footer {
     .sidebar {
         background-color: #600018;
         height: 100vh;
+        right: -350px;
         position: fixed;
         top: 0;
         flex-direction: column;
@@ -430,6 +431,15 @@ footer {
         width: 100%;
         text-align: left;
     }
+    /* Quando o sidebar estiver aberto */
+    .sidebar.ativo {
+        right: 0; /* aparece na tela, deslizando da direita */
+    }
 
+    /* .sidebar a:hover {
+    font-weight: bold;
+    color: #f8f8f8;
+    text-decoration: none;
+} */
 
 }
