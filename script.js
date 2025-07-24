@@ -16,7 +16,7 @@ function mostrarSecao(id){
   }
 
   // atualizar o menu
-  const links = document.querySelectorAll('nav a');
+  const links = document.querySelectorAll('nav a, #sidebar a');
   links.forEach(link => {
     link.classList.remove('active');
     if (link.getAttribute('onclick')?.includes(id)){
@@ -25,7 +25,6 @@ function mostrarSecao(id){
   });
   
 }
-
   function abrirSidebar(){
     document.getElementById('sidebar').classList.add('ativo');
   }

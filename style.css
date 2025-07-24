@@ -419,7 +419,8 @@ footer {
         padding-top: 60px;
         gap: 20px;
         padding: 60px 20px;
-
+        width: 200px;
+        transition: right 0.4s ease;
     }
 
     .sidebar a {
@@ -431,15 +432,17 @@ footer {
         width: 100%;
         text-align: left;
     }
+    
     /* Quando o sidebar estiver aberto */
     .sidebar.ativo {
         right: 0; /* aparece na tela, deslizando da direita */
     }
 
-    /* .sidebar a:hover {
+    #sidebar a.active{
     font-weight: bold;
     color: #f8f8f8;
     text-decoration: none;
-} */
+}
+
 
 }
