@@ -351,6 +351,7 @@ footer {
 /* Responsividade mobile */
 
 @media (max-width: 768px) {
+
     header {
         padding: 0;
         margin: 10px;
@@ -530,5 +531,8 @@ footer {
         font-size: 11px;
     }
 
+    #confirmacao {
+        margin-top: 20%;
+    }
 
 }
