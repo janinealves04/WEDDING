@@ -398,20 +398,36 @@ footer {
         width: 50%;
     }
 
-    p {
-        padding: 0 30px;
+     p {
+        padding: 0 15px;
+        font-size: 14px;
     }
 
+    h2 {
+        font-size: 2.3rem;
+    }
     .padrinhos-container {
-        display: flex;
-        justify-items: center;
-        gap: 20px;
+            display: grid;
+            grid-template-columns: 1fr 1fr; 
+            gap: 20px;
+            justify-items: center;
+            padding: 0 50px;
+            box-sizing: border-box;
+        /* justify-items: center;
+        justify-content: center; */
+        
     }
 
     .padrinhos-fotos img {
+        width: 100px;
+        height: 100px;
+        /* display: flex;
         width: 130px;
         height: 130px;
-        gap: 50px;
+        gap: 50px; */
+    }
+    .padrinhos-fotos{
+         width: 100%;
     }
 
     .foto-container {
@@ -423,8 +439,8 @@ footer {
     }
 
     .foto-container img {
-        width: 100px;
-        height: 100px;
+        width: 90px;
+        height: 90px;
     }
 
     .presentes-container {
@@ -506,5 +522,13 @@ footer {
     z-index: 5; /* abaixo do sidebar */
     display: none; /* começa escondido */
     }
+
+    .flores {
+        width: 150px;
+    }
+     .button {
+        font-size: 11px;
+    }
+
 
 }
