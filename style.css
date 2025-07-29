@@ -486,13 +486,25 @@ footer {
     /* Quando o sidebar estiver aberto */
     .sidebar.ativo {
         right: 0; /* aparece na tela, deslizando da direita */
+        z-index: 10;
     }
 
     #sidebar a.active{
     font-weight: bold;
     color: #f8f8f8;
     text-decoration: none;
-}
-
+    }
+    
+   #overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px); /* desfoca o fundo */
+    background-color: rgba(128, 128, 128, 0.3); /* cinza com transparência */
+    z-index: 5; /* abaixo do sidebar */
+    display: none; /* começa escondido */
+    }
 
 }

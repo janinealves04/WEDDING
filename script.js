@@ -27,14 +27,17 @@ function mostrarSecao(id){
 }
   function abrirSidebar(){
     document.getElementById('sidebar').classList.add('ativo');
+    document.getElementById('overlay').style.display = 'block';
   }
 
   function fecharSidebar(){
     document.getElementById('sidebar').classList.remove('ativo');
+    document.getElementById('overlay').style.display = 'none';
   }
-
+ 
 // mostrar home ao carregar
 window.onload = () => {
   mostrarSecao('home');
 };
+
 
