@@ -445,10 +445,12 @@ footer {
 
    .presentes-container {
         display: grid;
-        grid-template-columns: repeat(2, 1fr); 
-        /* gap: 20px;  */
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
         justify-items: center;
-        margin-left: 20px;
+        width: 100%;
+        padding: 0 30px;
+        box-sizing: border-box;
    }   
 
     .card-presentes{
