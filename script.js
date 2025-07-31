@@ -34,10 +34,39 @@ function mostrarSecao(id){
     document.getElementById('sidebar').classList.remove('ativo');
     document.getElementById('overlay').style.display = 'none';
   }
- 
+
+const destino = new Date("August 16,2025 17:00").getTime();
+
+setInterval (function(){
+  var dataAtual = new Date().getTime(); //data atual em milisegundos
+
+  var segTotal = (destino - dataAtual)/1000; //diferença
+  dias = parseInt(segTotal/86400); //desfinido dia
+  segTotal = segTotal%86400;
+
+  horas = parseInt(segTotal/3600);//desfinindo horas
+  segTotal = segTotal%3600;
+
+  minutos = parseInt(segTotal/60);//desfinindo minutos
+  segundos = parseInt(segTotal%60);//desfinindo segundos
+  
+  document.getElementById('dias').innerHTML =dias;
+  document.getElementById('horas').innerHTML = horas;
+  document.getElementById('minutos').innerHTML = minutos;
+  document.getElementById('segundos').innerHTML = segundos;
+
+
+  if (dias === 0){
+     document.querySelector('#countdown h2').textContent = "Chegou o grande dia!";
+  }
+
+},1000);
+
 // mostrar home ao carregar
 window.onload = () => {
   mostrarSecao('home');
 };
+
+
 
 

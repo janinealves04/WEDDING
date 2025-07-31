@@ -348,6 +348,50 @@ footer {
     display: none;
 }
 
+    /* contagem regressiva */
+.countdown {
+  text-align: center;
+  color: #600018;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.countdown h2 {
+  font-family: "Fleur De Leah", serif;
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-family: 'Montserrat';
+}
+
+.timer div {
+  background-color: #fff5f5;
+  padding: 15px 20px;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px rgba(96, 0, 24, 0.2);
+  text-align: center;
+}
+
+.timer span {
+  display: block;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #600018;
+}
+
+.timer small {
+  font-size: 0.8rem;
+  color: #4a0e13;
+}
+
+
+
+
 /* Responsividade mobile */
 
 @media (max-width: 768px) {
@@ -444,11 +488,6 @@ footer {
         height: 90px;
     }
 
-    .presentes-container {
-        align-items: center;
-        width: 100%;
-    }
-
     .map-container{
         align-items: center;
     }
@@ -534,5 +573,11 @@ footer {
     #confirmacao {
         margin-top: 20%;
     }
+
+    /* contagem regressiva */
+    .timer{
+        display:flex;
+    }
+ 
 
 }
