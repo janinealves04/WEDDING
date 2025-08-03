@@ -198,8 +198,8 @@ h2 {
 }
 
 .igreja {
-    width: 300px;
-    height: 300px;
+    width:20%;
+    height: 20%;
     border-radius: 10%;
     object-fit: cover;
     box-shadow: 0 4px 6px rgba(12, 1, 1, 0.938);
@@ -458,18 +458,13 @@ footer {
             justify-items: center;
             padding: 0 50px;
             box-sizing: border-box;
-        /* justify-items: center;
-        justify-content: center; */
-        
+            justify-items: center;
+            justify-content: center;
     }
 
     .padrinhos-fotos img {
         width: 100px;
         height: 100px;
-        /* display: flex;
-        width: 130px;
-        height: 130px;
-        gap: 50px; */
     }
     .padrinhos-fotos{
          width: 100%;
@@ -574,10 +569,26 @@ footer {
         margin-top: 20%;
     }
 
-    /* contagem regressiva */
-    .timer{
-        display:flex;
+    /* contagem regressiva*/
+
+    /* container */
+    .countdown{
+        padding: 0 20px; 
     }
- 
+
+
+    /* objeto */
+    .timer{
+        /* height: 100%;
+        width: 100%; */
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        /* margin: 5%; */
+        flex-direction:row;
+        align-content: center;  
+        justify-content: center; 
+    }
+
 
 }
