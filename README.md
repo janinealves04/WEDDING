@@ -1,38 +1,50 @@
 # Wedding Website
 
-Bem-vindo ao repositório do site do meu casamento! Este projeto foi desenvolvido para fornecer informações importantes sobre a cerimônia, facilitar a confirmação de presença e ajudar na organização do evento.
+Bem-vindo ao repositório do site do nosso casamento!  
+Este projeto foi desenvolvido com muito carinho para compartilhar informações importantes sobre a cerimônia, facilitar a confirmação de presença e ajudar na organização do evento.
 
 ## 👰🤵 Sobre o Projeto
 
-Este site foi criado para compartilhar detalhes essenciais do casamento, como:
+O objetivo do site é oferecer uma experiência acolhedora e prática para nossos convidados. Através dele é possível:
 
-- 📍 Local e horário da cerimônia e recepção
-- 📋 Lista de presentes
-- ✅ Confirmação de presença via formulário interativo
+- 📍 Visualizar o local e horário da cerimônia
+- 🧾 Conhecer nossa história e os padrinhos
+- 🎁 Escolher cotas de presentes
+- ✅ Confirmar presença de forma simples via formulário
+- 📆 Acompanhar a contagem regressiva para o grande dia
 
 ## 🛠️ Tecnologias Utilizadas
 
-O site foi desenvolvido utilizando as seguintes tecnologias:
+O site foi desenvolvido utilizando:
 
-- **HTML5** e **CSS3** para estrutura e estilização
-- **JavaScript** para interatividade
+- **HTML5** – Estrutura e semântica das páginas
+- **CSS3** – Estilização e responsividade
+- **JavaScript** – Interatividade e manipulação do DOM
 
 ## 🚀 Funcionalidades
 
-- Layout responsivo para diferentes dispositivos
-- Formulário de RSVP com três etapas
-- Informações organizadas e de fácil acesso
+- ✅ Navegação dinâmica entre seções
+- ✅ Menu recolhido com sidebar em dispositivos móveis
+- ✅ Contagem regressiva em tempo real até o evento
+- ✅ Responsividade para celular e desktop
+- ✅ Formulário externo de RSVP via Google Forms
+- ✅ Integração com Google Maps
+- ✅ Confirmação de presente via botão com redirecionamento para o WhatsApp
 
 ## 📂 Estrutura do Repositório
 
 ```plaintext
 📁 WEDDING
- ├── 📂 Prototipo        # Objetivo visual do site.
- ├── 📂 Imagens          # Imagens usadas. 
-    ├── 📂 Fotoscasal
- ├── 📜 README.md        # Documentação do projeto
- ├── 📜 home.html        # Estrutura com seções
- ├── 📜 style.css        # Estilização 
+ ├── 📂 imagens/              # Imagens usadas no site
+ │   ├── fotosCasal/
+ │   ├── albumFotos/
+ │   ├── fotospadrinhos/
+ │   └── icone.png
+ ├── 📂 Prototipo/            # Imagens do layout do protótipo
+ ├── 📜 home.html             # Página principal
+ ├── 📜 style.css             # Estilização global
+ ├── 📜 script.js             # Scripts para interatividade
+ └── 📜 README.md             # Documentação
 ```
 
 ## 🎨 Capturas de Tela
@@ -53,21 +65,40 @@ Demonstração, aparência e usabilidade do site.
    ```bash
    cd WEDDING
    ```
-3. Abra o arquivo `index.html` no navegador.
+3. Abra o arquivo `home.html` no navegador.
 
 ## 📌 Melhorias Futuras
 
-- Implementação de uma contagem regressiva para o evento
-- Integração com Google Maps para facilitar a localização
-- Adição de um espaço para mensagens dos convidados
-- Inclusão formulário para confirmação de presença 
+- Backend para registrar e mostrar presentes já escolhidos
+- Adicionar aria-labels e alt mais descritivos
+
+
+## 🧠 Aprendizados
+
+Durante o desenvolvimento, foram praticados diversos conceitos importantes de Web:
+
+- Manipulação do DOM com JavaScript puro
+- Eventos e funções para navegação por seções
+- Implementação de menus responsivos
+- Responsividade com Media Queries
+- Boas práticas de organização de arquivos
+- Integração com serviços externos (Google Forms, Maps, WhatsApp)
+
+
+## 📲 Acessibilidade e Performance
+O site já considera boas práticas como:
+
+- Uso de cores com bom contraste
+- Fonte legível e espaçamento adequado
+- Layout adaptável a diferentes tamanhos de tela
+- Tamanhos de botão adequados para toque
 
 ## 📞 Contato
 
 Caso tenha dúvidas ou sugestões, sinta-se à vontade para entrar em contato!
 
 **Contato:** [janinealves.developer@gmail.com](mailto\:janinealves.developer@gmail.com)
-
+**Instagram:** @dev.janine
 ---
 
 **Desenvolvido com ❤️ por Janine Alves**
