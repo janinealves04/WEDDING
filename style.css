@@ -12,6 +12,7 @@ nav a:hover {
     transform: scale(1.03);
     cursor: pointer;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .button:hover {
@@ -109,11 +110,6 @@ nav a {
 
 }
 
-nav a:hover {
-    text-decoration: none;
-
-
-}
 
 p {
     text-align: center;
@@ -124,7 +120,7 @@ p {
     letter-spacing: 0.5px;
 }
 
-h2 {
+h1 {
     color: #600018;
     text-align: center;
     font-family: "Fleur De Leah", serif;
@@ -356,7 +352,7 @@ footer {
   margin-bottom: 30px;
 }
 
-.countdown h2 {
+.countdown h1 {
   font-family: "Fleur De Leah", serif;
   font-size: 2.5rem;
   margin-bottom: 15px;
@@ -389,10 +385,7 @@ footer {
   color: #4a0e13;
 }
 
-
-
-
-/* Responsividade mobile */
+/* ---------------- RESPONSIVO ------------------- */
 
 @media (max-width: 768px) {
 
@@ -448,7 +441,7 @@ footer {
         font-size: 14px;
     }
 
-    h2 {
+    h1 {
         font-size: 2.3rem;
     }
     .padrinhos-container {
