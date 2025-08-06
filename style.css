@@ -194,7 +194,7 @@ h1 {
 }
 
 .igreja {
-    width:20%;
+    width: 20%;
     height: 20%;
     border-radius: 10%;
     object-fit: cover;
@@ -344,45 +344,45 @@ footer {
     display: none;
 }
 
-    /* contagem regressiva */
+/* contagem regressiva */
 .countdown {
-  text-align: center;
-  color: #600018;
-  margin-top: 20px;
-  margin-bottom: 30px;
+    text-align: center;
+    color: #600018;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 .countdown h1 {
-  font-family: "Fleur De Leah", serif;
-  font-size: 2.5rem;
-  margin-bottom: 15px;
+    font-family: "Fleur De Leah", serif;
+    font-size: 2.5rem;
+    margin-bottom: 15px;
 }
 
 .timer {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  font-family: 'Montserrat';
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-family: 'Montserrat';
 }
 
 .timer div {
-  background-color: #fff5f5;
-  padding: 15px 20px;
-  border-radius: 15px;
-  box-shadow: 0 2px 5px rgba(96, 0, 24, 0.2);
-  text-align: center;
+    background-color: #fff5f5;
+    padding: 15px 20px;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(96, 0, 24, 0.2);
+    text-align: center;
 }
 
 .timer span {
-  display: block;
-  font-size: 2rem;
-  font-weight: bold;
-  color: #600018;
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #600018;
 }
 
 .timer small {
-  font-size: 0.8rem;
-  color: #4a0e13;
+    font-size: 0.8rem;
+    color: #4a0e13;
 }
 
 /* ---------------- RESPONSIVO ------------------- */
@@ -436,7 +436,7 @@ footer {
         width: 50%;
     }
 
-     p {
+    p {
         padding: 0 15px;
         font-size: 14px;
     }
@@ -444,23 +444,25 @@ footer {
     h1 {
         font-size: 2.3rem;
     }
+
     .padrinhos-container {
-            display: grid;
-            grid-template-columns: 1fr 1fr; 
-            gap: 20px;
-            justify-items: center;
-            padding: 0 50px;
-            box-sizing: border-box;
-            justify-items: center;
-            justify-content: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        justify-items: center;
+        padding: 0 50px;
+        box-sizing: border-box;
+        justify-items: center;
+        justify-content: center;
     }
 
     .padrinhos-fotos img {
         width: 100px;
         height: 100px;
     }
-    .padrinhos-fotos{
-         width: 100%;
+
+    .padrinhos-fotos {
+        width: 100%;
     }
 
     .foto-container {
@@ -468,7 +470,7 @@ footer {
         flex-wrap: nowrap;
         justify-content: center;
         gap: 30px;
-       
+
     }
 
     .foto-container img {
@@ -476,18 +478,18 @@ footer {
         height: 90px;
     }
 
-    .map-container{
+    .map-container {
         align-items: center;
     }
 
-    .maps{
+    .maps {
         width: 500px;
         height: 300px;
         padding: 0px 30px 0px 30px;
     }
 
 
-   .presentes-container {
+    .presentes-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 20px;
@@ -495,12 +497,12 @@ footer {
         width: 100%;
         padding: 0 30px;
         box-sizing: border-box;
-   }   
+    }
 
-    .card-presentes{
+    .card-presentes {
         width: 160px;
         height: 250px;
-    } 
+    }
 
     .sidebar {
         background-color: #600018;
@@ -526,35 +528,41 @@ footer {
         width: 100%;
         text-align: left;
     }
-    
+
     /* Quando o sidebar estiver aberto */
     .sidebar.ativo {
-        right: 0; /* aparece na tela, deslizando da direita */
+        right: 0;
+        /* aparece na tela, deslizando da direita */
         z-index: 10;
     }
 
-    #sidebar a.active{
-    font-weight: bold;
-    color: #f8f8f8;
-    text-decoration: none;
+    #sidebar a.active {
+        font-weight: bold;
+        color: #f8f8f8;
+        text-decoration: none;
     }
-    
-   #overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    backdrop-filter: blur(5px); /* desfoca o fundo */
-    background-color: rgba(128, 128, 128, 0.3); /* cinza com transparência */
-    z-index: 5; /* abaixo do sidebar */
-    display: none; /* começa escondido */
+
+    #overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        backdrop-filter: blur(5px);
+        /* desfoca o fundo */
+        background-color: rgba(128, 128, 128, 0.3);
+        /* cinza com transparência */
+        z-index: 5;
+        /* abaixo do sidebar */
+        display: none;
+        /* começa escondido */
     }
 
     .flores {
         width: 150px;
     }
-     .button {
+
+    .button {
         font-size: 11px;
     }
 
@@ -565,22 +573,22 @@ footer {
     /* contagem regressiva*/
 
     /* container */
-    .countdown{
-        padding: 0 20px; 
+    .countdown {
+        padding: 0 20px;
     }
 
 
     /* objeto */
-    .timer{
+    .timer {
         /* height: 100%;
         width: 100%; */
         display: flex;
         flex-wrap: wrap;
         gap: 10px;
         /* margin: 5%; */
-        flex-direction:row;
-        align-content: center;  
-        justify-content: center; 
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
     }
 
 

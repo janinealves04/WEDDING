@@ -56,13 +56,13 @@ setInterval(function () {
   let minutos = parseInt(segTotal / 60);// Calcula os minutos restantes
   let segundos = parseInt(segTotal % 60);// Calcula os segundos restantes
 
-    // Atualiza o HTML com os valores da contagem
+  // Atualiza o HTML com os valores da contagem
   document.getElementById('dias').innerHTML = dias;
   document.getElementById('horas').innerHTML = horas;
   document.getElementById('minutos').innerHTML = minutos;
   document.getElementById('segundos').innerHTML = segundos;
 
-// Se chegar no dia do evento, exibe a mensagem especial
+  // Se chegar no dia do evento, exibe a mensagem especial
   if (dias === 0) {
     document.querySelector('#countdown h1').textContent = "Chegou o grande dia!";
   }
