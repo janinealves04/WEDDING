@@ -97,8 +97,8 @@ O site já considera boas práticas como:
 
 Caso tenha dúvidas ou sugestões, sinta-se à vontade para entrar em contato!
 
-**Contato:** [janinealves.developer@gmail.com](mailto\:janinealves.developer@gmail.com)
-**Instagram:** @dev.janine
+#### **Contato:** [janinealves.developer@gmail.com](mailto\:janinealves.developer@gmail.com) 
+#### **Instagram:** @dev.janine 
 ---
 
 **Desenvolvido com ❤️ por Janine Alves**
