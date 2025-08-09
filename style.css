@@ -397,6 +397,9 @@ footer {
 
     }
 
+    body {
+        background-attachment: scroll;
+    }
 
 
     .menu-hamburguer {
@@ -439,12 +442,12 @@ footer {
     }
 
     p {
-    max-width: 80%;
-    margin: 2% auto;
-    padding: 0 5%;
-    font-size: 14px;
-    text-align: center;
-    line-height: 150%; 
+        max-width: 80%;
+        margin: 2% auto;
+        padding: 0 5%;
+        font-size: 14px;
+        text-align: center;
+        line-height: 150%;
     }
 
 
