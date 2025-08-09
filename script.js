@@ -69,6 +69,7 @@ setInterval(function () {
 
 }, 1000); // Executa a função a cada 1 segundo
 
+
 // Quando o site carregar, mostra a seção com ID "home"
 window.onload = () => {
   mostrarSecao('home');
