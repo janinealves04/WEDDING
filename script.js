@@ -70,6 +70,16 @@ setInterval(function () {
 }, 1000); // Executa a função a cada 1 segundo
 
 
+// chavePix -copiarPix()
+
+function copiarPix () {
+  const chavePix = document.getElementById('chavePix').textContent
+  navigator.clipboard.writeText(chavePix).then(()=>{
+    alert('Chave pix copiada!');
+  });
+
+}
+
 // Quando o site carregar, mostra a seção com ID "home"
 window.onload = () => {
   mostrarSecao('home');
